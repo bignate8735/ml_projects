@@ -1,0 +1,13 @@
+prefix=/Users/MAC/ml_projects/venv
+exec_prefix=/Users/MAC/ml_projects/venv
+libdir=/Users/MAC/ml_projects/venv/lib
+sharedlibdir=/Users/MAC/ml_projects/venv/lib
+includedir=/Users/MAC/ml_projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
